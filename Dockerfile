@@ -15,4 +15,3 @@ RUN sudo jupyter nbextension enable --user --py --sys-prefix jupyter_francy
 USER gap
 
 WORKDIR $HOME/Binder-Demo
-RUN sudo jupyter nbextension enable --user --py --sys-prefix jupyter_francy
