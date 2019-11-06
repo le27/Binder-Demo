@@ -5,3 +5,7 @@
 LoadPackage("packageManager");
 
 InstallPackage("https://github.com/le27/aaa.git");
+
+LoadPackage("aaa");
+
+JupyterSplashDot(DotTransducer(RandomTransducer(2, 3)));
