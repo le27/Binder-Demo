@@ -2,7 +2,7 @@ FROM gapsystem/gap-docker
 
 MAINTAINER Alexander Konovalov <alexander.konovalov@st-andrews.ac.uk>
 
-COPY --chown=1000:1000 . $HOME/unipoly
+COPY --chown=1000:1000 . $HOME/Binder-Demo
 
 RUN sudo pip3 install ipywidgets RISE
 
