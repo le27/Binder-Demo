@@ -1,6 +1,6 @@
 FROM gapsystem/gap-docker
 
-MAINTAINER Alexander Konovalov <alexander.konovalov@st-andrews.ac.uk>
+MAINTAINER Luke Elliott
 
 COPY --chown=1000:1000 . $HOME/Binder-Demo
 
@@ -12,4 +12,4 @@ RUN jupyter-nbextension enable rise --user --py
 
 USER gap
 
-WORKDIR $HOME/unipoly
+WORKDIR $HOME/Binder-Demo
